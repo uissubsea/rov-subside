@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\Methodes -I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\stm_lib\inc -I..\..\..\workspace -I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\cmsis -I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\cmsis_boot -I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay -I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\stm_lib">
+      <target file="startup_stm32f10x_md_vl.o" lastModified="1464d213d28">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="1460f01f120"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="1464d213ce2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="1460f01f8f0"/>
+      </target>
+      <target file="interrupt_methods.o" lastModified="1464d213fb9">
+         <source file="..\..\..\Methodes\interrupt_methods.c" lastModified="1460f01f120"/>
+      </target>
+      <target file="Timer_PWM.o" lastModified="1464d2142b7">
+         <source file="..\..\..\Methodes\Timer_PWM.c" lastModified="1460f01f508"/>
+      </target>
+      <target file="GPIO_metoder.o" lastModified="1464d213e63">
+         <source file="..\..\..\Methodes\GPIO_metoder.c" lastModified="1460f01f120"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1464d213d7d">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1460f01f120"/>
+      </target>
+      <target file="vector_calculations.o" lastModified="1464d21439d">
+         <source file="..\..\..\Methodes\vector_calculations.c" lastModified="1460f01f508"/>
+      </target>
+      <target file="main.o" lastModified="1464d3f1f73">
+         <source file="..\..\..\main.c" lastModified="1464d3e596f"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1464d213dff">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1460f01f8f0"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1464d2141ea">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1460f01f8f0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1464d214079">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1460f01f8f0"/>
+      </target>
+      <target file="Initialization.o" lastModified="1464d3d2c48">
+         <source file="..\..\..\Methodes\Initialization.c" lastModified="1464d3d2718"/>
+      </target>
+      <target file="uart_com.o" lastModified="1464d4efa64">
+         <source file="..\..\..\Methodes\uart_com.c" lastModified="1464d4ef505"/>
+      </target>
+      <target file="misc.o" lastModified="1464d21431b">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="1460f01f8f0"/>
+      </target>
+   </processor>
+</history>

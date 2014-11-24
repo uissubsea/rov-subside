@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\Methodes /I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\stm_lib\inc /I..\..\..\workspace /I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\cmsis /I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\cmsis_boot /I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay /I..\..\..\workspace\ROV_Thruster_prog_3_3_med_time_delay\stm_lib">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="1460f01f508">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\Methodes\methode_pointer.h" lastModified="1460f01f120">
+      </source>
+      <source file="..\..\..\Methodes\extern_global_variables.h" lastModified="1460f01f120">
+      </source>
+      <source file="..\..\..\Methodes\vector_calculations.c" lastModified="1460f01f8f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\Methodes\methode_pointer.h"/>
+         <include file="..\..\..\Methodes\extern_global_variables.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1460f01f508">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="1460f01f8f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="1460f01f120">
+      </source>
+      <source file="..\..\..\Methodes\GPIO_metoder.c" lastModified="1460f01f120">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\Methodes\methode_pointer.h"/>
+      </source>
+      <source file="..\..\..\Methodes\interrupt_methods.c" lastModified="1460f01f120">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Methodes\methode_pointer.h"/>
+         <include file="..\..\..\Methodes\extern_global_variables.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="1460f01f8f0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Methodes\Initialization.c" lastModified="1464d3d2718">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\Methodes\methode_pointer.h"/>
+         <include file="..\..\..\Methodes\extern_global_variables.h"/>
+      </source>
+      <source file="..\..\..\Methodes\global_variables.h" lastModified="1460f01f120">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1460f01f8f0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="1460f01f8f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="1460f01f8f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="1460f01f120">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="1460f01f8f0">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1460f01f8f0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1460f01f508">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="1460f01f8f0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="1460f01f120">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1464d3e596f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\Methodes\methode_pointer.h"/>
+         <include file="..\..\..\Methodes\global_variables.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1460f01f120">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="1460f01f8f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="1460f01f8f0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Methodes\uart_com.c" lastModified="1464d4ef505">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\Methodes\methode_pointer.h"/>
+         <include file="..\..\..\Methodes\extern_global_variables.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="1460f01f120">
+      </source>
+      <source file="..\..\..\Methodes\Timer_PWM.c" lastModified="1460f01f508">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\Methodes\methode_pointer.h"/>
+         <include file="..\..\..\Methodes\extern_global_variables.h"/>
+      </source>
+   </includePath>
+</dependencies>

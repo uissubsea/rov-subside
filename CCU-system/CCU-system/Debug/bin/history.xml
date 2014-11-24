@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=CCU-system.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\CCU-system -TC:\CooCox\CoIDE\configuration\ProgramData\CCU-system/arm-gcc-link.ld -g">
+      <target file="CCU-system.elf" lastModified="1468a4a3d54">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="14648d926cf"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="14648d926fe"/>
+         <source file="..\obj\core_cm3.o" lastModified="14648d92744"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="14648d927cb"/>
+         <source file="..\obj\camera_control.o" lastModified="1464c4718d5"/>
+         <source file="..\obj\servo_Control.o" lastModified="14648d92875"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14648d928e6"/>
+         <source file="..\obj\com.o" lastModified="1468a4a3af4"/>
+         <source file="..\obj\main.o" lastModified="146809f95ab"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14648d92a53"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="14648d92ad5"/>
+         <source file="..\obj\light_control.o" lastModified="14648d92b43"/>
+         <source file="..\obj\misc.o" lastModified="14648d92b9d"/>
+         <source file="..\obj\com_gpio.o" lastModified="14648d92bf2"/>
+         <source file="..\obj\stm32f10x_wwdg.o" lastModified="14648d92c42"/>
+         <source file="..\obj\com_usart.o" lastModified="14648d92c99"/>
+      </target>
+   </processor>
+</history>

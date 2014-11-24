@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\CCU-system\stm_lib /I..\..\..\workspace\CCU-system\cmsis_boot /I..\..\..\workspace\CCU-system\stm_lib\inc /I..\..\..\workspace\CCU-system\cmsis /I..\..\..\workspace\CCU-system /I..\..\..\workspace /I..\..\..\workspace\CCU-system\src">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="143aeee470a">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_wwdg.h" lastModified="143aeeeffeb">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="143aeee714d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="143aeee4322">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="143aeee7150">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\src\com.h" lastModified="145b2d51286">
+      </source>
+      <source file="..\..\..\src\servo_Control.h" lastModified="1452121ac99">
+      </source>
+      <source file="..\..\..\src\com_usart.c" lastModified="145b2d294da">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="143aeee4365">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\src\com_gpio.c" lastModified="145b2d2552e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\src\servo_Control.c" lastModified="145efdbe0f1">
+         <include file="..\..\..\src\servo_Control.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+      </source>
+      <source file="..\..\..\src\light_control.h" lastModified="145b25105a0">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="143aeee4365">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="143aeee4301">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="143aeee4b24">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="143af4a2b29">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\src\camera_control.h" lastModified="145b2a4ec6f">
+      </source>
+      <source file="..\..\..\src\main.c" lastModified="146809f9150">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\src\com.h"/>
+         <include file="..\..\..\src\light_control.h"/>
+         <include file="..\..\..\src\servo_Control.h"/>
+         <include file="..\..\..\src\camera_control.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_wwdg.c" lastModified="143aeeeffeb">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\src\light_control.c" lastModified="145b2c14dc6">
+         <include file="..\..\..\src\light_control.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.c" lastModified="143aef37bc3">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="143aeee4304">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\src\camera_control.c" lastModified="1464c47142c">
+         <include file="..\..\..\src\camera_control.h"/>
+         <include file="..\..\..\src\servo_Control.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="143aeee42c6">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="143aeee4327">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="143aeee4324">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="143af4a2b19">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="143aeee42c1">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="143aeee4318">
+      </source>
+   </includePath>
+</dependencies>

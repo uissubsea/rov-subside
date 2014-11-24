@@ -1,0 +1,20 @@
+/*-------------------------------------------------
+* Naming Standard / Coding Conventions
+* -------------------------------------------------
+
+Summary coding convention:
+ - indent with 2 spaces (tab) 
+ - use comments after data members (sme line) and before classes and methods.
+ - braces:
+ 	- by the prophets Kernighan and Ritchie: put the opening brace last on the line, and put the closing brace first. 
+ 	- for methos set the opening brace on next line.
+
+ - Names:
+    - names must bee clear
+ 	- types must be in mixed case starting with upper case
+ 	- data members must be in mixed case starting with lower case and end with _ (underscore)
+ 	- constants (including enumeration values) must be all uppercase using underscore to separate words
+ 	- methods or functions must be verbs and written in mixed case starting with lower case
+ 	- functions (methods that returns a value) start the name with get
+ 
+* -------------------------------------------------*/

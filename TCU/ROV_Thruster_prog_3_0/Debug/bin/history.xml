@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=ROV_Thruster_prog_3_0.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\ROV_Thruster_prog_3_0 -TC:\CooCox\CoIDE\configuration\ProgramData\ROV_Thruster_prog_3_0/arm-gcc-link.ld -g">
+      <target file="ROV_Thruster_prog_3_0.elf" lastModified="1464d4efc8a">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1464d213ce2"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="1464d213d28"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1464d213d7d"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1464d213dff"/>
+         <source file="..\obj\GPIO_metoder.o" lastModified="1464d213e63"/>
+         <source file="..\obj\main.o" lastModified="1464d3f1f73"/>
+         <source file="..\obj\interrupt_methods.o" lastModified="1464d213fb9"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1464d214079"/>
+         <source file="..\obj\uart_com.o" lastModified="1464d4efa64"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1464d2141ea"/>
+         <source file="..\obj\Initialization.o" lastModified="1464d3d2c48"/>
+         <source file="..\obj\Timer_PWM.o" lastModified="1464d2142b7"/>
+         <source file="..\obj\misc.o" lastModified="1464d21431b"/>
+         <source file="..\obj\vector_calculations.o" lastModified="1464d21439d"/>
+      </target>
+   </processor>
+</history>

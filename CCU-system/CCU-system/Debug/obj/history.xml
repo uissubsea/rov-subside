@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\CCU-system\stm_lib -I..\..\..\workspace\CCU-system\cmsis_boot -I..\..\..\workspace\CCU-system\stm_lib\inc -I..\..\..\workspace\CCU-system\cmsis -I..\..\..\workspace\CCU-system -I..\..\..\workspace -I..\..\..\workspace\CCU-system\src">
+      <target file="startup_stm32f10x_md_vl.o" lastModified="14648d926fe">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="143aeee4318"/>
+      </target>
+      <target file="camera_control.o" lastModified="1464c4718d5">
+         <source file="..\..\..\src\camera_control.c" lastModified="1464c47142c"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="14648d926cf">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="143aeee7150"/>
+      </target>
+      <target file="com.o" lastModified="1468a4a3af4">
+         <source file="..\..\..\src\com.c" lastModified="1468a4a3587"/>
+      </target>
+      <target file="com_gpio.o" lastModified="14648d92bf2">
+         <source file="..\..\..\src\com_gpio.c" lastModified="145b2d2552e"/>
+      </target>
+      <target file="core_cm3.o" lastModified="14648d92744">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="143aef377db"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14648d927cb">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="143aeee4324"/>
+      </target>
+      <target file="stm32f10x_wwdg.o" lastModified="14648d92c42">
+         <source file="..\..\..\stm_lib\src\stm32f10x_wwdg.c" lastModified="143aeeeffeb"/>
+      </target>
+      <target file="light_control.o" lastModified="14648d92b43">
+         <source file="..\..\..\src\light_control.c" lastModified="145b2c14dc6"/>
+      </target>
+      <target file="main.o" lastModified="146809f95ab">
+         <source file="..\..\..\src\main.c" lastModified="146809f9150"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="14648d92ad5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="143aeee42c6"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14648d928e6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="143aeee4365"/>
+      </target>
+      <target file="com_usart.o" lastModified="14648d92c99">
+         <source file="..\..\..\src\com_usart.c" lastModified="145b2d294da"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14648d92a53">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="143aeee4304"/>
+      </target>
+      <target file="servo_Control.o" lastModified="14648d92875">
+         <source file="..\..\..\src\servo_Control.c" lastModified="145efdbe0f1"/>
+      </target>
+      <target file="misc.o" lastModified="14648d92b9d">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="143af4a2b29"/>
+      </target>
+   </processor>
+</history>

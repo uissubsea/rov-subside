@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=MCU-System.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\MCU-System -TC:\CooCox\CoIDE\configuration\ProgramData\MCU-System/arm-gcc-link.ld -g">
+      <target file="MCU-System.elf" lastModified="14680dc40ab">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="143f718219e"/>
+         <source file="..\obj\tim_conf.o" lastModified="14651365696"/>
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="143f71821dc"/>
+         <source file="..\obj\core_cm3.o" lastModified="143f718223a"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="143f7182297"/>
+         <source file="..\obj\gpio_conf.o" lastModified="14464704dd6"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="143f7182362"/>
+         <source file="..\obj\main.o" lastModified="14680dc3e53"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="143f718243d"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="143f71824c9"/>
+         <source file="..\obj\uart_com.o" lastModified="14651253d2e"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="143f71825b3"/>
+         <source file="..\obj\misc.o" lastModified="143f7182620"/>
+      </target>
+   </processor>
+</history>

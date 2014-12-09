@@ -40,6 +40,7 @@ void servoGpioInit(void)
 
 	GPIO_InitTypeDef itd;
 
+
 	itd.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7 | GPIO_Pin_8 | GPIO_Pin_9;
 	itd.GPIO_Mode = GPIO_Mode_AF_PP;
 	itd.GPIO_Speed = GPIO_Speed_50MHz;
@@ -50,10 +51,8 @@ void servoTimerInit(void)
 {
 	TIM_TimeBaseInitTypeDef timTbItd;
 
-	timTbItd.TIM_Period = 20000;
-	//timTbItd.TIM_Period = 48000;
-	//timTbItd.TIM_Prescaler = (uint16_t) (SystemCoreClock / 2400000) - 1;
-	timTbItd.TIM_Prescaler = (uint16_t) 24 - 1;
+	timTbItd.TIM_Period = 48000;
+	timTbItd.TIM_Prescaler = (uint16_t) (SystemCoreClock / 2400000) - 1;
 	timTbItd.TIM_ClockDivision = 0;
 	timTbItd.TIM_CounterMode = TIM_CounterMode_Up;
 
@@ -63,11 +62,20 @@ void servoTimerInit(void)
 
 	timOcItd.TIM_OCMode = TIM_OCMode_PWM1;
 	timOcItd.TIM_OutputState = TIM_OutputState_Enable;
-	timOcItd.TIM_Pulse = 1500; //2500
+	timOcItd.TIM_Pulse = 2500;
 	timOcItd.TIM_OCPolarity = TIM_OCPolarity_High;
 
 	TIM_OC1Init(TIM4, &timOcItd);
 	TIM_OC1PreloadConfig(TIM4, TIM_OCPreload_Enable);
+
+	TIM_OC2Init(TIM4, &timOcItd);
+	TIM_OC2PreloadConfig(TIM4, TIM_OCPreload_Enable);
+
+	TIM_OC3Init(TIM4, &timOcItd);
+	TIM_OC3PreloadConfig(TIM4, TIM_OCPreload_Enable);
+
+	TIM_OC4Init(TIM4, &timOcItd);
+	TIM_OC4PreloadConfig(TIM4, TIM_OCPreload_Enable);
 
 	TIM_ARRPreloadConfig(TIM4, ENABLE);
 
@@ -92,10 +100,9 @@ void setServoPos(int inServo, int inPos)
 		break;
 	}
 }
-
 int getServoPos(int inServo)
 {
-	if(inServo > 0 && inServo <= SERVO_COUNT)
+	if(inServo > 0 &&inServo <= SERVO_COUNT)
 		return servoPos[inServo];
 	return 0;
 }
